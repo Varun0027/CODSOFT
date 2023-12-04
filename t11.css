@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(83, 83, 114);
+    margin-bottom: 8%;
+}
+
+.head {
+    color: #ecf0f1;
+    text-align: center;
+    padding: 60px;
+    margin-top: 8%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.head h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.cal {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 8px;
+    max-width: 300px;
+}
+
+.bt {
+    grid-column: span 1;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.dis {
+    grid-column: span 4;
+    padding: 10px;
+    text-align: right;
+    font-size: 24px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
